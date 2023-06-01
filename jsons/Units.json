@@ -4,14 +4,32 @@
 		"unitType": "Helicopter",
 		"uniqueTo": "Barbarians",
 		"movement": 1,
-		"strength": 1000,
+		"strength": 100,
 		"cost": 10,
 		"uniques": [
 			"Can only attack [Military] units",
 			"Self-destructs when attacking",
 			"May attack when embarked",
 			"All tiles cost 1 movement", 
-			"Ignores Zone of Control"
+			"Ignores Zone of Control",
+			"Only available <after [200] turns>",
+			"No defensive terrain bonus",
+			"[-100]% Strength <vs [Fog Liberator] units>"
+		],
+		"attackSound": "nonmetalhit"
+	},
+	{
+		"name": "Foggler",
+		"unitType": "Mounted",
+		"uniqueTo": "Barbarians",
+		"movement": 5,
+		"strength": 50,
+		"cost": 10,
+		"uniques": [
+			"Can only attack [Military] units",
+			"Invisible to others <when [Wounded]>",
+			"Only available <after [200] turns>",
+			"Cannot attack <when [Wounded]>"
 		],
 		"attackSound": "nonmetalhit"
 	}
