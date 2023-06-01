@@ -27,10 +27,46 @@
 		"cost": 10,
 		"uniques": [
 			"Can only attack [Military] units",
-			"Invisible to others <when [Wounded]>",
+			"Invisible to others <when adjacent to a [Fog Cloud] unit>",
 			"Only available <after [200] turns>",
-			"Cannot attack <when [Wounded]>"
+			"Cannot attack <when adjacent to a [Fog Cloud] unit>"
 		],
 		"attackSound": "nonmetalhit"
+	}
+	{
+		"name": "Purifix",
+		"unitType": "Missile",
+		"movement": 1,
+		"strength": 60,
+		"rangedStrength": 60,
+		"range": 10,
+		"cost": 150,
+		"requiredTech": "Advanced Ballistics",
+		"uniques": [
+			"[-100]% maintenance costs",
+			"Can only attack [Fog Cloud] units",
+			"No Sight",
+			"Fog Liberator",
+			"Limited to [1] per Civilization",
+			"Only available <in cities with a [Fog Research Organization]>"
+		],
+		"attackSound": "missile"
+	},
+	{	
+		"name": "Fog Priest",
+		"unitType": "Scout",
+		"movement": 3,
+		"strength": 20,
+		"cost": 150,
+		"requiredTech": "Theocracy",
+		"uniques": [
+			"Can only attack [Fog Cloud] units",
+			"No Sight",
+			"Fog Liberator",
+			"Can be purchased with [Faith] [in holy cities]"
+			"Unbuildable",
+			"Only available <in cities with a [Fog Vocational Study]>"
+		],
+		"attackSound": "metalhit"
 	}
 ]
