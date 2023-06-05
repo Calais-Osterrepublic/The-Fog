@@ -1,0 +1,17 @@
+Fog Vocational Study - Theology
+Requires Piety Complete
+  +1 Faith
+  +1 Culture
+  +1 Science
+  Can only be built in Holy Cities
+  Melee Units made in this city gains:
+  
+Fog Priest
+
+Fog Research Organization - Rocketry
+Requires Rationalism Complete
+  +5 Science
+  Can only be built in the Capital
+  Enables the ability to make a:
+
+Purifix
